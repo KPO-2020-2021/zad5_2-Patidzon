@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/patryk/Pulpit/zad5_1-Patidzon
-# Build directory: /home/patryk/Pulpit/zad5_1-Patidzon/build
+# Source directory: /home/patryk/Pulpit/zad5_2-Patidzon
+# Build directory: /home/patryk/Pulpit/zad5_2-Patidzon/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -53,10 +53,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_1-Patidzon
+CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_2-Patidzon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_1-Patidzon/build
+CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_2-Patidzon/build
 
 # Utility rule file for NightlyMemCheck.
 
@@ -82,6 +82,6 @@ CMakeFiles/NightlyMemCheck.dir/clean:
 .PHONY : CMakeFiles/NightlyMemCheck.dir/clean
 
 CMakeFiles/NightlyMemCheck.dir/depend:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_1-Patidzon /home/patryk/Pulpit/zad5_1-Patidzon /home/patryk/Pulpit/zad5_1-Patidzon/build /home/patryk/Pulpit/zad5_1-Patidzon/build /home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_2-Patidzon /home/patryk/Pulpit/zad5_2-Patidzon /home/patryk/Pulpit/zad5_2-Patidzon/build /home/patryk/Pulpit/zad5_2-Patidzon/build /home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyMemCheck.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/patryk/Pulpit/zad5_1-Patidzon/tests
+# Install script for directory: /home/patryk/Pulpit/zad5_2-Patidzon/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

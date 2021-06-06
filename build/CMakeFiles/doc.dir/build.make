@@ -53,10 +53,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_1-Patidzon
+CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_2-Patidzon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_1-Patidzon/build
+CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_2-Patidzon/build
 
 # Utility rule file for doc.
 
@@ -67,8 +67,8 @@ include CMakeFiles/doc.dir/compiler_depend.make
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[1;35mGenerating API documentation with Doxygen (open ./html/index.html to view)."
-	/usr/bin/doxygen /home/patryk/Pulpit/zad5_1-Patidzon/build/Doxyfile &> doxygen.log
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[1;35mGenerating API documentation with Doxygen (open ./html/index.html to view)."
+	/usr/bin/doxygen /home/patryk/Pulpit/zad5_2-Patidzon/build/Doxyfile &> doxygen.log
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/doc.dir/clean:
 .PHONY : CMakeFiles/doc.dir/clean
 
 CMakeFiles/doc.dir/depend:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_1-Patidzon /home/patryk/Pulpit/zad5_1-Patidzon /home/patryk/Pulpit/zad5_1-Patidzon/build /home/patryk/Pulpit/zad5_1-Patidzon/build /home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_2-Patidzon /home/patryk/Pulpit/zad5_2-Patidzon /home/patryk/Pulpit/zad5_2-Patidzon/build /home/patryk/Pulpit/zad5_2-Patidzon/build /home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doc.dir/depend
 

@@ -53,10 +53,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_1-Patidzon
+CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_2-Patidzon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_1-Patidzon/build
+CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_2-Patidzon/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/program.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/example.cpp.o: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/example.cpp.o: ../src/example.cpp
 CMakeFiles/program.dir/src/example.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/program.dir/src/example.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/example.cpp.o -MF CMakeFiles/program.dir/src/example.cpp.o.d -o CMakeFiles/program.dir/src/example.cpp.o -c /home/patryk/Pulpit/zad5_1-Patidzon/src/example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/program.dir/src/example.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/example.cpp.o -MF CMakeFiles/program.dir/src/example.cpp.o.d -o CMakeFiles/program.dir/src/example.cpp.o -c /home/patryk/Pulpit/zad5_2-Patidzon/src/example.cpp
 
 CMakeFiles/program.dir/src/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/src/example.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patryk/Pulpit/zad5_1-Patidzon/src/example.cpp > CMakeFiles/program.dir/src/example.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patryk/Pulpit/zad5_2-Patidzon/src/example.cpp > CMakeFiles/program.dir/src/example.cpp.i
 
 CMakeFiles/program.dir/src/example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/example.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patryk/Pulpit/zad5_1-Patidzon/src/example.cpp -o CMakeFiles/program.dir/src/example.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patryk/Pulpit/zad5_2-Patidzon/src/example.cpp -o CMakeFiles/program.dir/src/example.cpp.s
 
 CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o: CMakeFiles/program.dir/flags.make
 CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o: ../src/lacze_do_gnuplota.cpp
 CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o -MF CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o.d -o CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o -c /home/patryk/Pulpit/zad5_1-Patidzon/src/lacze_do_gnuplota.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o -MF CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o.d -o CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o -c /home/patryk/Pulpit/zad5_2-Patidzon/src/lacze_do_gnuplota.cpp
 
 CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patryk/Pulpit/zad5_1-Patidzon/src/lacze_do_gnuplota.cpp > CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/patryk/Pulpit/zad5_2-Patidzon/src/lacze_do_gnuplota.cpp > CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.i
 
 CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patryk/Pulpit/zad5_1-Patidzon/src/lacze_do_gnuplota.cpp -o CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/patryk/Pulpit/zad5_2-Patidzon/src/lacze_do_gnuplota.cpp -o CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.s
 
 program: CMakeFiles/program.dir/src/example.cpp.o
 program: CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o
@@ -111,6 +111,6 @@ CMakeFiles/program.dir/clean:
 .PHONY : CMakeFiles/program.dir/clean
 
 CMakeFiles/program.dir/depend:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_1-Patidzon /home/patryk/Pulpit/zad5_1-Patidzon /home/patryk/Pulpit/zad5_1-Patidzon/build /home/patryk/Pulpit/zad5_1-Patidzon/build /home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles/program.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_2-Patidzon /home/patryk/Pulpit/zad5_2-Patidzon /home/patryk/Pulpit/zad5_2-Patidzon/build /home/patryk/Pulpit/zad5_2-Patidzon/build /home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles/program.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/program.dir/depend
 

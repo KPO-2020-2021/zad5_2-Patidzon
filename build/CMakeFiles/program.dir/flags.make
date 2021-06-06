@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DENABLE_DOCTEST_IN_LIBRARY
 
-CXX_INCLUDES = -I/home/patryk/Pulpit/zad5_1-Patidzon/build -I/home/patryk/Pulpit/zad5_1-Patidzon/inc -I/home/patryk/Pulpit/zad5_1-Patidzon/external/doctest/doctest
+CXX_INCLUDES = -I/home/patryk/Pulpit/zad5_2-Patidzon/build -I/home/patryk/Pulpit/zad5_2-Patidzon/inc -I/home/patryk/Pulpit/zad5_2-Patidzon/external/doctest/doctest
 
 CXX_FLAGS = -g -Wall -Wextra -Wpedantic -Wno-switch-enum -Werror -std=c++17
 

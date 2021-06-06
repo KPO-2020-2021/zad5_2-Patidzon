@@ -53,10 +53,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_1-Patidzon
+CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_2-Patidzon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_1-Patidzon/build
+CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_2-Patidzon/build
 
 # Utility rule file for ExperimentalStart.
 
@@ -82,6 +82,6 @@ CMakeFiles/ExperimentalStart.dir/clean:
 .PHONY : CMakeFiles/ExperimentalStart.dir/clean
 
 CMakeFiles/ExperimentalStart.dir/depend:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_1-Patidzon /home/patryk/Pulpit/zad5_1-Patidzon /home/patryk/Pulpit/zad5_1-Patidzon/build /home/patryk/Pulpit/zad5_1-Patidzon/build /home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_2-Patidzon /home/patryk/Pulpit/zad5_2-Patidzon /home/patryk/Pulpit/zad5_2-Patidzon/build /home/patryk/Pulpit/zad5_2-Patidzon/build /home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles/ExperimentalStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalStart.dir/depend
 

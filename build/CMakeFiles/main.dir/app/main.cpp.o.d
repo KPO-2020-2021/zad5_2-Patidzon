@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/app/main.cpp.o: \
- /home/patryk/Pulpit/zad5_1-Patidzon/app/main.cpp \
+ /home/patryk/Pulpit/zad5_2-Patidzon/app/main.cpp \
  /usr/include/stdc-predef.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/app/../tests/doctest/doctest.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/app/../tests/doctest/doctest.h \
  /usr/include/c++/9/ctime \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -242,19 +242,19 @@ CMakeFiles/main.dir/app/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/build/exampleConfig.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/example.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/../tests/doctest/doctest.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/build/exampleConfig.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/example.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/../tests/doctest/doctest.h \
  /usr/include/c++/9/cassert /usr/include/assert.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/lacze_do_gnuplota.hh \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/lacze_do_gnuplota.hh \
  /usr/include/c++/9/list /usr/include/c++/9/bits/stl_list.h \
  /usr/include/c++/9/bits/allocated_ptr.h /usr/include/c++/9/bits/list.tcc \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/size.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/vector.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/dron.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/brylawzorcowa.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/prostopadloscian.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/matrix.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/graniastoslup.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/lacze_do_gnuplota.hh \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/scena.h
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/size.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/vector.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/dron.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/brylawzorcowa.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/prostopadloscian.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/matrix.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/graniastoslup.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/lacze_do_gnuplota.hh \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/scena.h

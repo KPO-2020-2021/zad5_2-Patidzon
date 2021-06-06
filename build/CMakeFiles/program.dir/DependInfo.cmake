@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/patryk/Pulpit/zad5_1-Patidzon/src/example.cpp" "CMakeFiles/program.dir/src/example.cpp.o" "gcc" "CMakeFiles/program.dir/src/example.cpp.o.d"
-  "/home/patryk/Pulpit/zad5_1-Patidzon/src/lacze_do_gnuplota.cpp" "CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o" "gcc" "CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o.d"
+  "/home/patryk/Pulpit/zad5_2-Patidzon/src/example.cpp" "CMakeFiles/program.dir/src/example.cpp.o" "gcc" "CMakeFiles/program.dir/src/example.cpp.o.d"
+  "/home/patryk/Pulpit/zad5_2-Patidzon/src/lacze_do_gnuplota.cpp" "CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o" "gcc" "CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o.d"
   )
 
 # Targets to which this target links.

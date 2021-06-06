@@ -53,10 +53,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_1-Patidzon
+CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_2-Patidzon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_1-Patidzon/build
+CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_2-Patidzon/build
 
 # Utility rule file for coverage.
 
@@ -67,8 +67,8 @@ include tests/CMakeFiles/coverage.dir/compiler_depend.make
 include tests/CMakeFiles/coverage.dir/progress.make
 
 tests/CMakeFiles/coverage:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build/tests && echo [31mCode\ coverage\ only\ available\ in\ coverage\ builds.
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build/tests && echo [32mMake\ a\ new\ build\ directory\ and\ rerun\ cmake\ with\ -DCMAKE_BUILD_TYPE=Coverage\ to\ enable\ this\ target.[m
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build/tests && echo [31mCode\ coverage\ only\ available\ in\ coverage\ builds.
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build/tests && echo [32mMake\ a\ new\ build\ directory\ and\ rerun\ cmake\ with\ -DCMAKE_BUILD_TYPE=Coverage\ to\ enable\ this\ target.[m
 
 coverage: tests/CMakeFiles/coverage
 coverage: tests/CMakeFiles/coverage.dir/build.make
@@ -79,10 +79,10 @@ tests/CMakeFiles/coverage.dir/build: coverage
 .PHONY : tests/CMakeFiles/coverage.dir/build
 
 tests/CMakeFiles/coverage.dir/clean:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/coverage.dir/cmake_clean.cmake
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/coverage.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/coverage.dir/clean
 
 tests/CMakeFiles/coverage.dir/depend:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_1-Patidzon /home/patryk/Pulpit/zad5_1-Patidzon/tests /home/patryk/Pulpit/zad5_1-Patidzon/build /home/patryk/Pulpit/zad5_1-Patidzon/build/tests /home/patryk/Pulpit/zad5_1-Patidzon/build/tests/CMakeFiles/coverage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patryk/Pulpit/zad5_2-Patidzon /home/patryk/Pulpit/zad5_2-Patidzon/tests /home/patryk/Pulpit/zad5_2-Patidzon/build /home/patryk/Pulpit/zad5_2-Patidzon/build/tests /home/patryk/Pulpit/zad5_2-Patidzon/build/tests/CMakeFiles/coverage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/coverage.dir/depend
 

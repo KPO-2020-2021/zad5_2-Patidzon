@@ -1,5 +1,5 @@
 CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o: \
- /home/patryk/Pulpit/zad5_1-Patidzon/src/lacze_do_gnuplota.cpp \
+ /home/patryk/Pulpit/zad5_2-Patidzon/src/lacze_do_gnuplota.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/cstdio \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -190,7 +190,7 @@ CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/9/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++io.h \
  /usr/include/c++/9/bits/fstream.tcc \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/lacze_do_gnuplota.hh \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/lacze_do_gnuplota.hh \
  /usr/include/c++/9/list /usr/include/c++/9/bits/stl_list.h \
  /usr/include/c++/9/bits/allocated_ptr.h \
  /usr/include/c++/9/ext/aligned_buffer.h /usr/include/c++/9/bits/list.tcc \

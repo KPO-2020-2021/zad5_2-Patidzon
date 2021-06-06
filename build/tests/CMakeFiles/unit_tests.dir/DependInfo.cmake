@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/patryk/Pulpit/zad5_1-Patidzon/tests/dummy.cpp" "tests/CMakeFiles/unit_tests.dir/dummy.cpp.o" "gcc" "tests/CMakeFiles/unit_tests.dir/dummy.cpp.o.d"
-  "/home/patryk/Pulpit/zad5_1-Patidzon/tests/main.cpp" "tests/CMakeFiles/unit_tests.dir/main.cpp.o" "gcc" "tests/CMakeFiles/unit_tests.dir/main.cpp.o.d"
+  "/home/patryk/Pulpit/zad5_2-Patidzon/tests/dummy.cpp" "tests/CMakeFiles/unit_tests.dir/dummy.cpp.o" "gcc" "tests/CMakeFiles/unit_tests.dir/dummy.cpp.o.d"
+  "/home/patryk/Pulpit/zad5_2-Patidzon/tests/main.cpp" "tests/CMakeFiles/unit_tests.dir/main.cpp.o" "gcc" "tests/CMakeFiles/unit_tests.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

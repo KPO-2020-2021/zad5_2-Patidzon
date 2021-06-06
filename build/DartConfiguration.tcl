@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/patryk/Pulpit/zad5_1-Patidzon
-BuildDirectory: /home/patryk/Pulpit/zad5_1-Patidzon/build
+SourceDirectory: /home/patryk/Pulpit/zad5_2-Patidzon
+BuildDirectory: /home/patryk/Pulpit/zad5_2-Patidzon/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,8 +26,8 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/snap/cmake/876/bin/cmake" "/home/patryk/Pulpit/zad5_1-Patidzon"
-MakeCommand: /snap/cmake/870/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "/snap/cmake/876/bin/cmake" "/home/patryk/Pulpit/zad5_2-Patidzon"
+MakeCommand: /snap/cmake/876/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control

@@ -1,4 +1,4 @@
-/home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
-/home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
-/home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
-/home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
+/home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir

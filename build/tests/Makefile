@@ -57,10 +57,10 @@ RM = /snap/cmake/876/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_1-Patidzon
+CMAKE_SOURCE_DIR = /home/patryk/Pulpit/zad5_2-Patidzon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_1-Patidzon/build
+CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_2-Patidzon/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/patryk/Pulpit/zad5_1-Patidzon/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/snap/cmake/870/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/876/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -97,14 +97,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles /home/patryk/Pulpit/zad5_1-Patidzon/build/tests//CMakeFiles/progress.marks
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/patryk/Pulpit/zad5_1-Patidzon/build/CMakeFiles 0
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles /home/patryk/Pulpit/zad5_2-Patidzon/build/tests//CMakeFiles/progress.marks
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/patryk/Pulpit/zad5_2-Patidzon/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -113,22 +113,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/fulltest.dir/rule:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fulltest.dir/rule
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fulltest.dir/rule
 .PHONY : tests/CMakeFiles/fulltest.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ fulltest: tests/CMakeFiles/fulltest.dir/rule
 
 # fast build rule for target.
 fulltest/fast:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fulltest.dir/build.make tests/CMakeFiles/fulltest.dir/build
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fulltest.dir/build.make tests/CMakeFiles/fulltest.dir/build
 .PHONY : fulltest/fast
 
 # Convenience name for target.
 tests/CMakeFiles/unit_tests.dir/rule:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/unit_tests.dir/rule
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/unit_tests.dir/rule
 .PHONY : tests/CMakeFiles/unit_tests.dir/rule
 
 # Convenience name for target.
@@ -151,12 +151,12 @@ unit_tests: tests/CMakeFiles/unit_tests.dir/rule
 
 # fast build rule for target.
 unit_tests/fast:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
 .PHONY : unit_tests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/coverage.dir/rule:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/rule
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/coverage.dir/rule
 .PHONY : tests/CMakeFiles/coverage.dir/rule
 
 # Convenience name for target.
@@ -165,7 +165,7 @@ coverage: tests/CMakeFiles/coverage.dir/rule
 
 # fast build rule for target.
 coverage/fast:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/coverage.dir/build.make tests/CMakeFiles/coverage.dir/build
 .PHONY : coverage/fast
 
 dummy.o: dummy.cpp.o
@@ -173,7 +173,7 @@ dummy.o: dummy.cpp.o
 
 # target to build an object file
 dummy.cpp.o:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/dummy.cpp.o
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/dummy.cpp.o
 .PHONY : dummy.cpp.o
 
 dummy.i: dummy.cpp.i
@@ -181,7 +181,7 @@ dummy.i: dummy.cpp.i
 
 # target to preprocess a source file
 dummy.cpp.i:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/dummy.cpp.i
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/dummy.cpp.i
 .PHONY : dummy.cpp.i
 
 dummy.s: dummy.cpp.s
@@ -189,7 +189,7 @@ dummy.s: dummy.cpp.s
 
 # target to generate assembly for a file
 dummy.cpp.s:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/dummy.cpp.s
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/dummy.cpp.s
 .PHONY : dummy.cpp.s
 
 main.o: main.cpp.o
@@ -197,7 +197,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.o
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -205,7 +205,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.i
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -213,7 +213,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.s
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -245,6 +245,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/patryk/Pulpit/zad5_1-Patidzon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/patryk/Pulpit/zad5_2-Patidzon/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

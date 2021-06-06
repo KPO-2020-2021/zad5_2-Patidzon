@@ -1,7 +1,7 @@
 tests/CMakeFiles/unit_tests.dir/main.cpp.o: \
- /home/patryk/Pulpit/zad5_1-Patidzon/tests/main.cpp \
+ /home/patryk/Pulpit/zad5_2-Patidzon/tests/main.cpp \
  /usr/include/stdc-predef.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/tests/../tests/doctest/doctest.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/tests/../tests/doctest/doctest.h \
  /usr/include/c++/9/ctime \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -242,9 +242,9 @@ tests/CMakeFiles/unit_tests.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/tests/dummy.cpp \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/example.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/../tests/doctest/doctest.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/size.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/vector.h \
- /home/patryk/Pulpit/zad5_1-Patidzon/inc/matrix.h
+ /home/patryk/Pulpit/zad5_2-Patidzon/tests/dummy.cpp \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/example.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/../tests/doctest/doctest.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/size.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/vector.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/matrix.h
