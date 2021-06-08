@@ -32,7 +32,7 @@
 #include "scena.h"
 #include "matrix.h"
 #include <cstdlib>
-
+#include "przeszkoda.h"
 using namespace std;
 
 
@@ -92,7 +92,11 @@ int main()
   dron dron[2];
   dron[0].tworzdrona(0);
   dron[1].tworzdrona(1);
+
+  przeszkoda test=przeszkoda(PLIK_PRZESZKODY1,Lacze);
+
   Lacze.Rysuj();
+
 
    std::cout<<"dron 1 to ten blizej poczatku ukladu wspolrzednych"<<std::endl;
 while (z!='k')

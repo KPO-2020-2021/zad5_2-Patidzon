@@ -257,4 +257,5 @@ CMakeFiles/main.dir/app/main.cpp.o: \
  /home/patryk/Pulpit/zad5_2-Patidzon/inc/matrix.h \
  /home/patryk/Pulpit/zad5_2-Patidzon/inc/graniastoslup.h \
  /home/patryk/Pulpit/zad5_2-Patidzon/inc/lacze_do_gnuplota.hh \
- /home/patryk/Pulpit/zad5_2-Patidzon/inc/scena.h
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/scena.h \
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/przeszkoda.h

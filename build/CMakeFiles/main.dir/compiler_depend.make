@@ -330,8 +330,11 @@ CMakeFiles/main.dir/app/main.cpp.o: ../app/main.cpp \
   ../inc/matrix.h \
   ../inc/graniastoslup.h \
   ../inc/lacze_do_gnuplota.hh \
-  ../inc/scena.h
+  ../inc/scena.h \
+  ../inc/przeszkoda.h
 
+
+../inc/przeszkoda.h:
 
 ../inc/brylawzorcowa.h:
 

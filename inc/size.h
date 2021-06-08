@@ -16,6 +16,7 @@ constexpr double MINDIF =0.0000000001;
 #define PLIK_WLASCIWY__DRON2_ROTOR3  "../dat/PlikWlasciwy_Dron2_Rotor3.dat"
 #define PLIK_WLASCIWY__DRON2_ROTOR4  "../dat/PlikWlasciwy_Dron2_Rotor4.dat"
 #define PLIK_TRASY_PRZELOTU "../dat/trasa_przelotu.dat"
+#define PLIK_PRZESZKODY1 "../dat/przeszkoda1.dat"
 /*
 #define TRANSLACJA_ROTOR_LEWY_PRZEDNI   5,4,5
 #define TRANSLACJA_ROTOR_PRAWY_PRZEDNI  5,-4,5
@@ -36,6 +37,8 @@ int calkowitaliczbawektorow=0;
           double argumentsV9[] = {0,0,2};
           double argumentsV10[] = {0,0,0};
             double argumentsV11[] = {1,0,0};
+               double argumentsV12[] = {20,20,20};
+            double argumentsV13[] = {100,100,10};
     Vector<SIZE> wek1=argumentsV1;
     Vector<SIZE> wek2=argumentsV2;
     Vector<SIZE> wek3=argumentsV3;
@@ -48,6 +51,8 @@ int calkowitaliczbawektorow=0;
      Vector<SIZE> V3=argumentsV9;
      
      Vector<SIZE> V5=argumentsV11;
+     Vector<SIZE> V6=argumentsV12;
+     Vector<SIZE> V7=argumentsV13;
      const char *NazwyPlikowWlasciwychrotory[][5]= {{  PLIK_WLASCIWY__DRON1_ROTOR1,
 					 PLIK_WLASCIWY__DRON1_ROTOR2, PLIK_WLASCIWY__DRON1_ROTOR3,
 					 PLIK_WLASCIWY__DRON1_ROTOR4, nullptr
