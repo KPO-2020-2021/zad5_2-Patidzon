@@ -17,7 +17,20 @@
 #include <cstdlib>
 
 
+/*!
+ * \file scena.h
+ * \brief  plik  zawiera  klase przeszkoda
+ *
+ */
 
+
+
+/*!
+ * \brief  
+ *  
+ *  klasa zawiera metody i atrybuty sluzace do stworzenia przeszkody
+ *  
+ */
 class przeszkoda: public brylawzorcowa
 {
 private:

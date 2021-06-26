@@ -31,7 +31,7 @@
 /*!
  * \brief  
  *  
- *  klasa nie uzywana w projekcie
+ *  klasa zawiera list shared pointerow oraz metody dodawania i usuwania z niej
  *  
  */
 class scena

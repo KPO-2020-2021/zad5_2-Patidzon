@@ -1,0 +1,28 @@
+digraph "przeszkoda::przeszkoda"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="przeszkoda::przeszkoda",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="przeszkoda::tworzgorezdlugagrania",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprzeszkoda.html#a266e9d87f0e82fb26ebca0f761133aca",tooltip="Metoda klasy przeszkoda. | | tworzy gore z dluga grania | | Argumenty: | | nazwaplikuzapisu-nazwa pli..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="PzG::LaczeDoGNUPlota\l::DodajNazwePliku",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pz_g_1_1_lacze_do_g_n_u_plota.html#aa815ce8ec16e12fc246cf422e562869e",tooltip="Dodaje nazwę pliku."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="PzG::CzyJestPlik",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_pz_g.html#ae1aad0c681853d7e47da4cdfccefc102",tooltip="Funkcja pomocnicza, sprawdza czy plik o podanej nazwie jest na dysku."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="przeszkoda::zaladujwspwzor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprzeszkoda.html#a620d63d0919db1b1f90c214b80ee20b5",tooltip="Metoda klasy przeszkoda. | | Argumenty: | | Brak argumentow. | | Zwraca: | | tablice wektorow wypelni..."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="przeszkoda::zapiszwsp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprzeszkoda.html#ada057746502952b884408dc33c96709f",tooltip="Metoda klasy przeszkoda. | | Argumenty: | | nazwaplikuzapisu-nazwa pliku do ktorej zostana zapisane w..."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="przeszkoda::tworzgorezostrymszczytem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprzeszkoda.html#a714f653cc97cd55f852299b1cf56ba77",tooltip="Metoda klasy przeszkoda. | | tworzy gore z ostrym szczytem | | Argumenty: | | nazwaplikuzapisu-nazwa ..."];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="przeszkoda::tworzplaskowyz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classprzeszkoda.html#af5a246a6d2621117a1f3cbf175ce160a",tooltip="Metoda klasy przeszkoda. | | tworzy plaskowyrz | | Argumenty: | | nazwaplikuzapisu-nazwa pliku do kto..."];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+}

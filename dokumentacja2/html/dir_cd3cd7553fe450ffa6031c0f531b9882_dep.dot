@@ -1,0 +1,18 @@
+digraph "/home/patryk/Pulpit/zad5_2-Patidzon" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cd3cd7553fe450ffa6031c0f531b9882 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_cd3cd7553fe450ffa6031c0f531b9882.html"];
+    dir_cd3cd7553fe450ffa6031c0f531b9882 [shape=plaintext label="zad5_2-Patidzon"];
+    dir_46de8d37119dff14d8ea0c7fee701369 [shape=box label="app" color="black" fillcolor="white" style="filled" URL="dir_46de8d37119dff14d8ea0c7fee701369.html"];
+    dir_619b40c05a91efbafce87e9602f8241e [shape=box label="build" color="red" fillcolor="white" style="filled" URL="dir_619b40c05a91efbafce87e9602f8241e.html"];
+    dir_6027d06d7febbedbeac8b9103e3da3fe [shape=box label="inc" color="black" fillcolor="white" style="filled" URL="dir_6027d06d7febbedbeac8b9103e3da3fe.html"];
+    dir_1ffba918de7e154df8d1071aca805f00 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_1ffba918de7e154df8d1071aca805f00.html"];
+    dir_131008151d06690eae0f8fb536060598 [shape=box label="tests" color="red" fillcolor="white" style="filled" URL="dir_131008151d06690eae0f8fb536060598.html"];
+  }
+  dir_1ffba918de7e154df8d1071aca805f00->dir_6027d06d7febbedbeac8b9103e3da3fe [headlabel="2", labeldistance=1.5 headhref="dir_000032_000022.html"];
+  dir_46de8d37119dff14d8ea0c7fee701369->dir_6027d06d7febbedbeac8b9103e3da3fe [headlabel="11", labeldistance=1.5 headhref="dir_000001_000022.html"];
+  dir_46de8d37119dff14d8ea0c7fee701369->dir_619b40c05a91efbafce87e9602f8241e [headlabel="1", labeldistance=1.5 headhref="dir_000001_000002.html"];
+  dir_131008151d06690eae0f8fb536060598->dir_6027d06d7febbedbeac8b9103e3da3fe [headlabel="4", labeldistance=1.5 headhref="dir_000006_000022.html"];
+}
