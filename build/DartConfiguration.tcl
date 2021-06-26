@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/snap/cmake/876/bin/cmake" "/home/patryk/Pulpit/zad5_2-Patidzon"
+ConfigureCommand: "/snap/cmake/888/bin/cmake" "/home/patryk/Pulpit/zad5_2-Patidzon"
 MakeCommand: /snap/cmake/876/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

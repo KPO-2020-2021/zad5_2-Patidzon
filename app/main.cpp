@@ -33,6 +33,8 @@
 #include "matrix.h"
 #include <cstdlib>
 #include "przeszkoda.h"
+#include <list>
+#include <memory>
 using namespace std;
 
 
@@ -88,12 +90,17 @@ int main()
   Lacze.UstawZakresZ(0, 120);
 
 
-
-  dron dron[2];
+  scena scena1;
+  dron dron[3];
   dron[0].tworzdrona(0);
   dron[1].tworzdrona(1);
-
-  przeszkoda test=przeszkoda(PLIK_PRZESZKODY1,Lacze);
+   Lacze.Rysuj();
+  scena1.dodajprzeszkode(Lacze);
+   Lacze.Rysuj();
+    scena1.dodajprzeszkode(Lacze);
+     Lacze.Rysuj();
+    scena1.dodajprzeszkode(Lacze);
+     Lacze.Rysuj();
 
   Lacze.Rysuj();
 
@@ -104,7 +111,8 @@ while (z!='k')
 <<"l lec dronem na wskazana odleglosc"<<std::endl
 <<"d zmien drona"<<std::endl
 //<<"z lot zwiadowczy"<<std::endl
-
+<<"p dodaj przeszkode"<<std::endl
+<<"u usun przeszkode"<<std::endl
 <<"k koniec"<<std::endl
 <<"aktywny dron to "<<nr+1<<std::endl
 <<"aktualna liczba wektorow "<<liczbawektorow<<std::endl
@@ -128,6 +136,14 @@ while (z!='k')
     nr=0;
   }
   
+  break;
+  case 'p':
+  scena1.dodajprzeszkode(Lacze);
+  Lacze.Rysuj();
+  break;
+   case 'u':
+  scena1.usunprzeszkode(Lacze);
+   Lacze.Rysuj();
   break;
   default:
   if (z!='k')

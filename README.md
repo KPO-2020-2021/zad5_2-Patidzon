@@ -53,8 +53,6 @@ The `main.cpp` in the folder `tests` is needed. Only there we define `#define DO
 The main loop of the program is in the `app` folder.
 
 Wazne informacje:
-Nie zdazylem napisac programu w zadowalajacej wersji(dziala tylko funkcja lotu) dlatego prawdopodobnie oddam go jutro
-czas opuznienie okolo 13godz
-funkcja lot zwiadowczy nie dziala poprawnie
-Nie wiedzialem jakie testy robic, a jesli nawet to ich implementacja zajelaby nieproprcjonalnie duzo wiecej czasu do ich efetow(latwiej bylo mi sprawdzic dzialanie progrmu w maine)
 rotory drona nie kreca sie podczas lotu i wznoszenia
+Można maksymalnie dodać 9 przeszkod, ale usuniete przeszkody nie zwalniaja limitu(nie wiedzialem jak zapisywac przeszkody do wczesniejszych plikow).
+Poczatkowe przeszkody trzeba ustawic recznie(przerobienie konstruktorow zajeloby mi za duzo czasu )

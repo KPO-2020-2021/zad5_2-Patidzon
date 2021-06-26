@@ -258,4 +258,11 @@ CMakeFiles/main.dir/app/main.cpp.o: \
  /home/patryk/Pulpit/zad5_2-Patidzon/inc/graniastoslup.h \
  /home/patryk/Pulpit/zad5_2-Patidzon/inc/lacze_do_gnuplota.hh \
  /home/patryk/Pulpit/zad5_2-Patidzon/inc/scena.h \
- /home/patryk/Pulpit/zad5_2-Patidzon/inc/przeszkoda.h
+ /home/patryk/Pulpit/zad5_2-Patidzon/inc/przeszkoda.h \
+ /usr/include/c++/9/memory /usr/include/c++/9/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/9/ext/concurrence.h \
+ /usr/include/c++/9/bits/shared_ptr.h \
+ /usr/include/c++/9/bits/shared_ptr_base.h \
+ /usr/include/c++/9/bits/shared_ptr_atomic.h \
+ /usr/include/c++/9/backward/auto_ptr.h \
+ /usr/include/c++/9/pstl/glue_memory_defs.h
